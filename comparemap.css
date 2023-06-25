@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Ubuntu:wght@700&display=swap");
+
+.housecard {
+  border: 2px solid rgb(255, 187, 0);
+  position: relative;
+  max-width: max-content;
+  width: 100%;
+  height: max-content;
+  border-radius: 12px;
+  padding: 20px 30px 20px;
+  background: #ffffff;
+  box-shadow: 0 1px 5px #000;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.text {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.housecard h1 {
+  /* font-size: larger; */
+  text-align: center;
+}
+
+.housecard img {
+  width: 250px;
+  /* border: 2px solid red; */
+  border-top: none;
+  box-shadow: 0 5px 5px #000;
+}
+
+li {
+  list-style-type: none;
+  margin: 11px;
+  text-align: left;
+  position: relative;
+    left: -25px;
+}
+
+span {
+  color: #000000;
+}
+.icon {
+  color: aliceblue;
+}
+
+.housecard1 {
+  border: 2px solid rgb(255, 187, 0);
+  position: relative;
+  position: relative;
+  top: -442px;
+  left: 764px;
+  max-width: max-content;
+  width: 100%;
+  height: max-content;
+  border-radius: 12px;
+  padding: 20px 30px 20px;
+  background: #ffffff;
+  box-shadow: 0 1px 5px #000;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.housecard1 h1 {
+  /* font-size: larger; */
+  text-align: center;
+}
+
+.housecard1 img {
+  width: 250px;
+  /* border: 2px solid red; */
+  border-top: none;
+  box-shadow: 0 5px 5px #000;
+}
+
+iframe{
+    overflow: hidden;
+    position: relative;
+    top: -1141px;
+    z-index: -1;
+}
