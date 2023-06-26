@@ -3,15 +3,20 @@
 .housecard {
   border: 2px solid rgb(255, 187, 0);
   position: relative;
+  top: 143px;
+  right: -309px;
   max-width: max-content;
   width: 100%;
   height: max-content;
   border-radius: 12px;
   padding: 20px 30px 20px;
   background: #ffffff;
-  box-shadow: 0 1px 5px #000;
+  box-shadow: 0 11px 15px #000;
   overflow: hidden;
   font-family: "Ubuntu", sans-serif;
+  font-size : small;
+  transform: scale(.50,.50);
+ 
 }
 
 .text {
@@ -21,11 +26,13 @@
 
 .housecard h1 {
   /* font-size: larger; */
+  font-size : small;
   text-align: center;
 }
 
 .housecard img {
-  width: 250px;
+  width: 196px;
+  height: 103px;
   /* border: 2px solid red; */
   border-top: none;
   box-shadow: 0 5px 5px #000;
@@ -46,7 +53,8 @@ span {
   color: aliceblue;
 }
 
-.housecard1 {
+
+.housecard1{
   border: 2px solid rgb(255, 187, 0);
   position: relative;
   position: relative;
@@ -56,28 +64,134 @@ span {
   width: 100%;
   height: max-content;
   border-radius: 12px;
-  padding: 20px 30px 20px;
+  padding: 20px;
   background: #ffffff;
-  box-shadow: 0 1px 5px #000;
+  box-shadow: 0 11px 15px #000;
   overflow: hidden;
   font-family: "Ubuntu", sans-serif;
+  font-size : small;
+  transform: scale(.50,.50);
 }
 
 .housecard1 h1 {
   /* font-size: larger; */
+  font-size : small;
   text-align: center;
 }
 
 .housecard1 img {
-  width: 250px;
+  position: relative;
+  right: -9px;
+  width: 172px;
+  height: 86px;
   /* border: 2px solid red; */
   border-top: none;
   box-shadow: 0 5px 5px #000;
 }
 
+.housecard:hover {
+  border: 2px solid rgb(255, 187, 0);
+  position: relative;
+  top: 143px;
+  right: -309px;
+  max-width: max-content;
+  width: 100%;
+  height: max-content;
+  border-radius: 12px;
+  padding: 20px 30px 20px;
+  background: #ffffff;
+  box-shadow: 0 11px 15px #000;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  font-size : small;
+  transform: scale(1,1);
+  transition: 0.5s linear;
+}
+
+.housecard1:hover{
+  border: 2px solid rgb(255, 187, 0);
+  position: relative;
+  position: relative;
+  top: -442px;
+  left: 764px;
+  max-width: max-content;
+  width: 100%;
+  height: max-content;
+  border-radius: 12px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 11px 15px #000;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  font-size : small;
+  transform: scale(1,1);
+  transition: 0.5s linear;
+}
+
+
+.housecard3{
+  border: 2px solid rgb(255, 187, 0);
+  position: relative;
+  position: relative;
+  top: -479px;
+  left: 693px;
+  max-width: max-content;
+  width: 100%;
+  height: max-content;
+  border-radius: 12px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 11px 15px #000;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  font-size : small;
+  transform: scale(.50,.50);
+}
+
+.housecard3 h1 {
+  /* font-size: larger; */
+  font-size : small;
+  text-align: center;
+}
+
+.housecard3 img {
+  position: relative;
+  right: -9px;
+  width: 172px;
+  height: 86px;
+  /* border: 2px solid red; */
+  border-top: none;
+  box-shadow: 0 5px 5px #000;
+}
+
+.housecard3:hover {
+  border: 2px solid rgb(255, 187, 0);
+  position: relative;
+  top: -479px;
+  left: 693px;
+  max-width: max-content;
+  width: 100%;
+  height: max-content;
+  border-radius: 12px;
+  padding: 20px 30px 20px;
+  background: #ffffff;
+  box-shadow: 0 11px 15px #000;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  font-size : small;
+  transform: scale(1,1);
+  transition: 0.5s linear;
+}
+
 iframe{
     overflow: hidden;
     position: relative;
-    top: -1141px;
+    top: -1496px;
+    height: 1000px;
     z-index: -1;
+}
+
+ul{
+  position: relative;
+  right: 26px;
 }
